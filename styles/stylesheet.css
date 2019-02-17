@@ -3,6 +3,12 @@ h1 {
   background-color:rgb(10,10,10);
   box-shadow: 3px 3px 3px 3px rgb(150,150,150);
 }
+h1{
+  color:rgb(180,67,58);
+  transition-property: color;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
 Header{
   font-size:105%;
   background-color:rgb(179,174,174);
@@ -31,6 +37,12 @@ td {
   background-color: rgb(270,270,270);
   box-shadow: 1px 1px 1px 1px rgb(10,10,10)
 }
+ol li:nth-child(odd) {
+  color:rgb(0,0,240);
+}
+ol li:nth-child(even) {
+  color:rgb(0,153,76);
+}
 .highlight {
   color:rgb(90,90,90)
 }
@@ -54,6 +66,9 @@ td {
   color:gold;
   font-style:oblique;
   font-weight:bold;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 1s;
 }
 .narrative-color{
   color:rgb(35,35,35)
@@ -97,6 +112,7 @@ td {
   justify-content: center;
   align-items: center;
 }
+
 .rotateimg90 {
   transform: rotate(90deg);
   padding-bottom: 50px;
