@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <h1><img src="images/profile-pic2.jpg" height="75" alt="profile pic">Patrick Stanton</h1>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about-me.html">About</a>
+        <a href="contact-us.html">Contact Us</a>
+      </nav>
+    </header>
+    <section>
+      <h2 class="highlight">Contact Us</h2>
+      <form method="GET">
+        <label>Your name:
+          <input type="text" name="contactName">
+        </label>
+
+        <label>Your email:
+          <input type="email" name="contactEmail">
+        </label>
+
+        <fieldset class="checkbox">
+          <legend>What sports are you interested in joining?</legend>
+          <label>
+            <input type="checkbox" name="type" value="skiing">
+            Skiing
+          </label>
+          <label>
+            <input type="checkbox" name="type" value="cats">
+            Mountain Biking
+          </label>
+          <label>
+            <input type="checkbox" name="type" value="climbing">
+            Climbing
+          </label>
+          <label>
+            <input type="checkbox" name="type" value="fishing">
+            Fishing
+          </label>
+          <label>
+            <input type="checkbox" name="type" value="crossfit">
+            Crossfit
+          </label>
+        </fieldset>
+
+        <label>
+          Start Date
+          <input type="date" name="start">
+        </label>
+        <label>
+          End Date
+          <input type="date" name="end">
+        </label>
+
+        <label>How many days have you participated in the sports you clicked above?
+          <select name="days">
+            <option value="">Please Select</option>
+            <option value="None">None</option>
+            <option value="Few">less than 10</option>
+            <option value="some">10 to 50</option>
+            <option value="many">more than 50</option>
+          </select>
+        </label>
+
+        <label>Is there any other information you would like to provide us?
+          <textarea name="extraInfo" rows="4" cols="50">Special Requests</textarea>
+        </label>
+
+        <input type="submit" value="Submit!">
+        <h2 class="highlight">Thanks for reaching out to us</h2>
+
+      </form>
+      </section>
+      <footer>
+        <p><small>Created by Patrick Stanton</small></p>
+      </footer>
+  </body>
+
+</html>

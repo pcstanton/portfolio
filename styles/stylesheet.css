@@ -127,3 +127,66 @@ footer{
   font-style:oblique;
   font-family: 'Roboto Mono', monospace;
 }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin:1rem;
+}
+
+input{
+  border-radius: 15px;
+}
+
+fieldset{
+  border:none;
+}
+
+fieldset input{
+  display: inline;
+}
+
+.checkbox label {
+
+  display: block;
+
+  position: relative;
+
+  padding-left: 35px;
+
+  margin-top: 12px;
+
+  cursor: pointer;
+
+  -webkit-user-select: none;
+
+  -moz-user-select: none;
+
+  -ms-user-select: none;
+
+  user-select: none;
+
+}
+
+input[type=text]:focus{
+  background-color: green;
+  outline: none;
+}
+
+input[type=email]:focus{
+  background-color: orange;
+  outline: none;
+}
+
+input[type=date]:focus{
+  background-color: red;
+  outline: none;
+}
+
+input[type=submit]{
+  width:25%;
+  background-color: rgb(179,174,174);
+
+}
