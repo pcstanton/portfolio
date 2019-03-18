@@ -21,7 +21,7 @@ Header{
 
 }
 Section{
-  background-color:rgb(106,151,185);
+  background-color:rgb(176,224,230);
   padding-bottom:100px;
   box-shadow: 5px 5px 5px 5px rgb(10,10,10);
   font-family: 'Fira Sans', sans-serif;
@@ -74,7 +74,7 @@ ol li:nth-child(even) {
   color:rgb(35,35,35)
 }
 .table-text-color{
-  color:rgb(260,192,36)
+  color:rgb(75,0,130)
 }
 .picture-page{
   background-color: rgb(84,132,129);
